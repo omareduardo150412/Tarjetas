@@ -39,8 +39,8 @@ public class Comandos implements CommandLineRunner
 		
 		public void run(String... args) throws Exception 
 		{
-		/*
-	    Tarjeta tarjetaAfinity= new Tarjeta(null,TipoTarjeta.AFINITY_CARD);	
+		
+	        Tarjeta tarjetaAfinity= new Tarjeta(null,TipoTarjeta.AFINITY_CARD);	
 		Tarjeta tarjetaAmerica= new Tarjeta(null,TipoTarjeta.AMÉRICA_DEPORTEÍSMO);
 		Tarjeta tarjetaApac= new Tarjeta(null,TipoTarjeta.APAC);
 		Tarjeta tarjetaTeleton= new Tarjeta(null,TipoTarjeta.BANAMEX_TELETÓN);
@@ -518,6 +518,6 @@ public class Comandos implements CommandLineRunner
 		edadesTarjeta13.add(edadDao.buscarPorId(29).get());
 		edadesTarjeta13.add(edadDao.buscarPorId(28).get());
 		tarjeta13.setEdades(edadesTarjeta13);
-		tarjetaDao.guardar(tarjeta13);*/
+		tarjetaDao.guardar(tarjeta13);
 	}
 }
